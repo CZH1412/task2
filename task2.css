@@ -1,0 +1,123 @@
+body{
+    background-color: gainsboro;
+}
+
+#header{
+
+    width:100%;
+    height: 70px;
+    border: 1px solid black;
+    background-color: white;
+    margin:0px 3px 3px 3px;
+    padding:0px 3px 3px 3px;
+}
+
+#header.header-logo{
+    float: left;
+
+
+}
+#header .header-nav{
+    float: right;
+    height: 50px;
+    margin-top: -40px;
+    /*border: 1px solid black;*/
+}
+#header .header-logo img{
+    height: 70px;
+
+}
+#header .header-nav li{
+    display: inline-block;
+}
+#header .header-nav a:link{
+    text-decoration: none;
+    color: blue;
+}
+
+#header .header-nav a:hover{
+    text-decoration: none;
+    color: #F1B4C3;
+}
+
+.first{
+    width:100%;
+    border:1px solid black;
+    margin:10px 3px 3px 3px;
+    padding:3px 3px 3px 3px;
+    background-color:#F3E9E9;
+}
+.first1{
+    font-size:20px;
+    font-weight:bold;
+    margin:5px 0px 3px 10px;
+}
+.first12{
+    font-size:16px;
+    margin:5px 0 3px 10px;
+    color: gray;
+}
+.author{
+    font-size:13px;
+    margin:5px 0 3px 10px;
+    color: gray;
+}
+.long{
+    text-indent:2em
+}
+
+.first ul{
+    list-style: none;
+}
+
+#sheet .one{
+    background-color: black;
+    color: white;
+
+}
+#sheet .total{
+    background-color: gray;
+
+}
+
+.last{
+    width:100%;
+    border:1px solid black;
+    margin:20px 3px 3px 3px;
+    padding:20px 3px 3px 3px;
+    background-color:#F3E9E9;
+}
+.last1{
+    font-size:16px;
+    font-weight:bold;
+}
+.email{
+    font-size:12px;
+    text-align:right;
+    margin-right:700px;
+
+
+}
+.b-style{
+    font-size:12px;
+    color:gray;
+    margin:5px 0 0 402px;
+}
+
+.sex {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 380px;
+}
+.person{
+    font-size: 12px;
+    float: left;
+    margin-left: 355px;
+}
+.submit button{
+    width: 800px;
+    border: 1px solid;
+    height:30px;
+    background-color: dodgerblue;
+    margin-left: 300px;
+}
